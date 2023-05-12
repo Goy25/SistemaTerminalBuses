@@ -2,10 +2,11 @@
   margin: 0%;
   padding: 0%;
   font-family: monospace;
+  color: whitesmoke;
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: #2b2a2a;
 }
 
 #banner {
@@ -26,21 +27,32 @@ body {
 .categoria {
   height: 70%;
   width: 15%;
-  font-size: 15px;
   font-weight: bold;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid whitesmoke;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.5s;
   margin-left: 8%;
 }
 
+.categoria:hover {
+  background-color: whitesmoke;
+  color: #2b2a2a;
+}
+
 #contenido {
   height: 70%;
   width: 100%;
 }
+
+.tema {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
 
